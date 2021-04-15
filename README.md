@@ -1,2 +1,2 @@
-La chouette agence/
-Amélioration du référencement
+Version original du site, avant changement :
+Version optimisée après changement :
