@@ -323,13 +323,13 @@ a:hover {
 }
 
 .nav > li {
-    float: left;
     margin-top: 4px;
     font-size: 16px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
-    text-align: inherit;
+    text-align:inherit;
+
 }
 
 .nav > li a:hover,
@@ -364,7 +364,6 @@ a:hover {
 
 @media (min-width: 768px) {
     .site-navigation {
-        position: absolute;
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
