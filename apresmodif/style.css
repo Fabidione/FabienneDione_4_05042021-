@@ -48,7 +48,7 @@ a:hover {
 
 .bloc-md {
     padding: 50px;
-    margin-right: 40px;
+    
 }
 
 .bloc-sm {
@@ -742,8 +742,7 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
-    margin-left: 0px;
-    margin-right: 0px;
+    
 }
 
 .avatar {
