@@ -3406,13 +3406,11 @@ textarea.input-lg {
 
 .has-success .form-control {
     border-color: #3c763d;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
 }
 
 .has-success .form-control:focus {
     border-color: #2b542c;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168
 }
 
@@ -3441,13 +3439,11 @@ textarea.input-lg {
 
 .has-warning .form-control {
     border-color: #8a6d3b;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
 }
 
 .has-warning .form-control:focus {
     border-color: #66512c;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #c0a16b;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #c0a16b
 }
 
@@ -3476,13 +3472,11 @@ textarea.input-lg {
 
 .has-error .form-control {
     border-color: #a94442;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
 }
 
 .has-error .form-control:focus {
     border-color: #843534;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483
 }
 
@@ -3617,12 +3611,8 @@ textarea.input-lg {
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    -ms-touch-action: manipulation;
     touch-action: manipulation;
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     background-image: none;
     border: 1px solid transparent;
@@ -3636,7 +3626,6 @@ textarea.input-lg {
 .btn:active:focus,
 .btn:focus {
     outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
 
@@ -3651,7 +3640,6 @@ textarea.input-lg {
 .btn:active {
     background-image: none;
     outline: 0;
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
 }
 
@@ -3659,8 +3647,6 @@ textarea.input-lg {
 .btn[disabled],
 fieldset[disabled] .btn {
     cursor: not-allowed;
-    filter: alpha(opacity=65);
-    -webkit-box-shadow: none;
     box-shadow: none;
     opacity: .65
 }
@@ -4126,16 +4112,10 @@ fieldset[disabled] .btn-danger:hover {
 .btn-link[disabled],
 fieldset[disabled] .btn-link {
     background-color: transparent;
-    -webkit-box-shadow: none;
     box-shadow: none
 }
 
-.btn-link,
-.btn-link:active,
-.btn-link:focus,
-.btn-link:hover {
-    border-color: transparent
-}
+
 
 .btn-link:focus,
 .btn-link:hover {
@@ -4193,8 +4173,6 @@ input[type=submit].btn-block {
 
 .fade {
     opacity: 0;
-    -webkit-transition: opacity .15s linear;
-    -o-transition: opacity .15s linear;
     transition: opacity .15s linear
 }
 
@@ -4222,14 +4200,8 @@ tbody.collapse.in {
     position: relative;
     height: 0;
     overflow: hidden;
-    -webkit-transition-timing-function: ease;
-    -o-transition-timing-function: ease;
     transition-timing-function: ease;
-    -webkit-transition-duration: .35s;
-    -o-transition-duration: .35s;
     transition-duration: .35s;
-    -webkit-transition-property: height, visibility;
-    -o-transition-property: height, visibility;
     transition-property: height, visibility
 }
 
@@ -4240,7 +4212,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4268,12 +4240,10 @@ tbody.collapse.in {
     text-align: left;
     list-style: none;
     background-color: #fff;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #ccc;
     border: 1px solid rgba(0, 0, 0, .15);
     border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175)
 }
 
@@ -4376,7 +4346,7 @@ tbody.collapse.in {
     content: "";
     border-top: 0;
     border-bottom: 4px dashed;
-    border-bottom: 4px solid\9
+    border-bottom: 4px solid;
 }
 
 .dropup .dropdown-menu,
@@ -4498,12 +4468,10 @@ tbody.collapse.in {
 }
 
 .btn-group.open .dropdown-toggle {
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
 }
 
 .btn-group.open .dropdown-toggle.btn-link {
-    -webkit-box-shadow: none;
     box-shadow: none
 }
 
@@ -5039,9 +5007,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     padding-right: 15px;
     padding-left: 15px;
     overflow-x: visible;
-    -webkit-overflow-scrolling: touch;
     border-top: 1px solid transparent;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1)
 }
 
@@ -5053,7 +5019,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-collapse {
         width: auto;
         border-top: 0;
-        -webkit-box-shadow: none;
         box-shadow: none
     }
     .navbar-collapse.collapse {
@@ -5216,7 +5181,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
         margin-top: 0;
         background-color: transparent;
         border: 0;
-        -webkit-box-shadow: none;
         box-shadow: none
     }
     .navbar-nav .open .dropdown-menu .dropdown-header,
@@ -5254,7 +5218,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     margin-left: -15px;
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1)
 }
 
@@ -5326,7 +5289,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
         margin-right: 0;
         margin-left: 0;
         border: 0;
-        -webkit-box-shadow: none;
         box-shadow: none
     }
 }
@@ -5701,7 +5663,6 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     color: #fff;
     cursor: default;
     background-color: #337ab7;
-    border-color: #337ab7
 }
 
 .pagination>.disabled>a,
@@ -5713,7 +5674,6 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     color: #777;
     cursor: not-allowed;
     background-color: #fff;
-    border-color: #ddd
 }
 
 .pagination-lg>li>a,
