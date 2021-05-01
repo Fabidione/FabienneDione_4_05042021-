@@ -6699,7 +6699,7 @@ button.list-group-item-danger.active:hover {
 .panel-primary>.panel-heading {
     color: #fff;
     background-color: #337ab7;
-    border-color: #337ab7
+    
 }
 
 .panel-primary>.panel-heading+.panel-collapse>.panel-body {
@@ -7339,7 +7339,7 @@ button.close {
         left: 0;
         transform: translate3d(0, 0, 0)
     }
-}
+
 
 .carousel-inner>.active,
 .carousel-inner>.next,
@@ -7611,7 +7611,6 @@ button.close {
     color: transparent;
     text-shadow: none;
     background-color: transparent;
-    border: 0
 }
 
 .hidden {
